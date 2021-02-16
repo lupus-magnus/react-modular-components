@@ -1,0 +1,28 @@
+.searchField {
+  position: relative;
+  width: 400px;
+}
+.searchBar {
+  position: relative;
+  height: 1.5em;
+  border-top-right-radius: 0.75em;
+  border-top-left-radius: 0.75em;
+  border-bottom-right-radius: 0.75em;
+  border-bottom-left-radius: 0.75em;
+  margin: 10px;
+  width: 100%;
+  z-index: 1;
+  transform: scaleY(1.2);
+  letter-spacing: 1px;
+  padding-left: 10px;
+}
+
+.glassIcon {
+  position: absolute;
+  height: 1em;
+  top: 50%;
+  right: 2%;
+  z-index: 2;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
